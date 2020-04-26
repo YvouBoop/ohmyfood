@@ -1,0 +1,55 @@
+section{
+	
+	width:50%;
+	height:200px;
+	margin:auto;
+}
+
+.menu1{
+	background-image: url('images/noteenchantee.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.menu2{
+	background-image: url('images/chicfrancaise.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.menu3{
+	background-image: url('images/tablepapille.png');
+	background-position: center;
+	background-size: cover;
+}
+.menu4{
+	background-image: url('images/palettegout.png');
+	background-position: center;
+	background-size: cover;
+
+}
+.menu5{
+	background-color:#73cb5e;
+	color:yellow;
+	width:55%;
+	height:50px;
+	text-align: center;
+	font-size: 15px;
+	
+
+}
+@media (max-width: 1000px){
+	.menu1 {
+    
+    background-image: url('images/noteenchantee-s.png');
+  }
+	.menu2{
+		background-image: url('images/chicfrancaise-s.png');
+	}
+	.menu3{
+		background-image: url('images/tablepapille-s.png');
+	}
+	.menu4{
+		background-image: url('images/palettegout-s.png');
+	}
+}
