@@ -1,5 +1,9 @@
 footer {
     position: fixed;
+    
+    display: flex;
+    flex-direction: row;
+    
     left: 50%;
     top: 110%;
     margin-top: -100px;
@@ -8,8 +12,8 @@ footer {
     width: 40%;
     height: 3%;
     background-color:#37d337 ;
-
-    text-align: center;
+    justify-content: space-between;    
+    
 }
 
 .footer1 {
