@@ -1,20 +1,27 @@
+footer {
+    position: fixed;
+    left: 50%;
+    top: 110%;
+    margin-top: -100px;
+    margin-left: -20%;
+    bottom: 0;
+    width: 40%;
+    height: 3%;
+    background-color:#37d337 ;
 
-
-
-.wiggle1 , .wiggle2:hover {
-  -webkit-animation-name: wiggle;
-  -webkit-animation-duration: 1000ms;
-  -webkit-animation-iteration-count: 3;
-  -webkit-animation-timing-function: ease-in-out;
-    
- 
+    text-align: center;
 }
 
-@-webkit-keyframes wiggle {
-  0% {-webkit-transform: rotate(20deg);}
-  25% {-webkit-transform: rotate(-20deg);}
-  50% {-webkit-transform: rotate(20deg);}
-  75% {-webkit-transform: rotate(-10deg);}
-  100% {-webkit-transform: rotate(0deg);}
+.footer1 {
+    color: yellow;
+    text-align: left;
+
 }
+
+.footer2 {
+    color: yellow;
+    text-align: right;
+}
+
+
 

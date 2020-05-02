@@ -2,13 +2,16 @@ section{
 	
 	width:40%;
 	height:200px;
-	margin:auto;
+    margin:0 auto;
+    margin-top:50px;
+  
 }
 
 .menu1{
 	background-image: url('images/noteenchantee.png');
 	background-position: center;
-	background-size: cover;
+    background-size: cover;
+	
 }
 
 .menu2{
