@@ -1,12 +1,14 @@
-.nom-resto-francaise{
-     width:360px;
-    margin-top: 20px;
-    align-self: center;    
-    margin-bottom: 20px;
-    font-size:39px;    
+.nom-resto-francaise{    
+    align-self: center;        
     background: -webkit-gradient(linear, left top, right top, from(#FF9933), to(#663399));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.titre{
+    width:310px;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:39px;
 }
 .titre-entree-francaise{
     align-self: center;
