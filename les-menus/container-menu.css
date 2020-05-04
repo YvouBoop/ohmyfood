@@ -1,52 +1,27 @@
-html{
-    height:100%;
-    width:100%;
-}
-
-.tous-les-resto{
-    display:flex;
-    flex-direction: column;
-    width:500px;
+html {
     height: 100%;
-    margin:0 auto;
+    width: 100%;
+}
+
+.tous-les-resto {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
     font-family: 'Dancing Script', cursive;
-    
 }
-
-
-.nom-resto-papilles{
-    width:350px;
-    margin-top: 20px;
-    align-self: center;    
-    margin-bottom: 20px;
-    font-size:39px;    
-    background: -webkit-gradient(linear, left top, right top, from(#0033CC), to(#0099FF));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.titre{
+.titre {
     margin-left: 4px;
 }
-
-.titre-menu{
+.titre-menu {
     align-self: center;
-    font-size:20px;
-    
+    font-size: 20px;
 }
-
-.prix{
-    
-    float:right;
+.prix {
+    float: right;
 }
-h4{
+h4 {
     font-size: 14px;
-    font-weight:normal;
-}
-
-.degrade {
-    font-size: 50px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#00cc00), to(#ccff66));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: normal;
 }
