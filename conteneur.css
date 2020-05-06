@@ -1,21 +1,12 @@
 html{
 	height:100%;
-	width:100%;
-    background-color: #ac9c9c; 
+	width:100%;    
+     
 	
 		}
 
 
-.ContOhmyfood{
-	height:100%;
-	width:40%;	
-	display: flex;
-	flex-flow:row wrap;
-	align-items: center;
-	justify-content: center;
-	margin-left:auto;
-	margin-right: auto;
-}
+
 
 
 

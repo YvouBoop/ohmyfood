@@ -17,7 +17,11 @@ background-color:#cccccc;
 }
 .titre-bas{
     margin-bottom:5px;
-    margin-top:10px;
+    margin-top:5px;
+    background: -webkit-gradient(linear, left top, right top, from(#0033CC), to(#0099FF));
+    
+    
 }
+
 
 

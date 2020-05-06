@@ -1,14 +1,12 @@
 footer {
-    position: fixed;
-    
+    position: fixed;    
     display: flex;
-    flex-direction: row;
-    
-    left: 50%;
+    flex-direction: row;    
+    left: 49%;
     top: 110%;
     margin-top: -100px;
-    margin-left: -20%;
-    bottom: 0;
+    margin-left: -19%;
+    bottom: 0px;
     width: 40%;
     height: 3%;
     background-color:#37d337 ;
@@ -19,12 +17,14 @@ footer {
 .footer1 {
     color: yellow;
     text-align: left;
+    margin-left: 5px;
 
 }
 
 .footer2 {
     color: yellow;
     text-align: right;
+    margin-right: 5px;
 }
 
 
