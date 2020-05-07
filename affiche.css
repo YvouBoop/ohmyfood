@@ -16,7 +16,7 @@ html {
 .palette,
 .delice,
 .francaise {
-    height: 220px;
+    height: 200px;
     width: 39%;
     text-align: center;
     display: flex;
@@ -27,12 +27,22 @@ html {
 
 .enchantee,
 .delice {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-right: 10px;
 }
 
 .palette,
 .francaise {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: 10px;
+}
+.prochainement{
+    background-color: #37d337;
+    width: 35%;
+    
+}
+.bientot{  
+    text-align: center;
+    color:yellow;
+    font-size: 15px;
 }
