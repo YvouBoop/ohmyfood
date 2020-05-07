@@ -1,0 +1,20 @@
+.delice {
+    background-color: #adbfbe;
+}
+
+.nom-resto-papille,
+.menu-papille {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+}
+
+.nom-resto-papille {
+    background: -webkit-gradient(linear, left top, right top, from(#0033CC), to(#0099FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.menu-papille {
+    color: #0033CC;
+}

@@ -1,0 +1,11 @@
+.enchantee {
+    background-color: #EFC4EF;
+}
+
+.nom-resto-enchantee,
+.menu-enchantee {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    color: #663300;
+}

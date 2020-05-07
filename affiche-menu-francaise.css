@@ -1,0 +1,21 @@
+.francaise {
+    background-color: #bddbd9;
+}
+
+.nom-resto-francaise,
+.menu-francaise {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+}
+
+.nom-resto-francaise {
+
+    background: -webkit-gradient(linear, left top, right top, from(#FF9933), to(#663399));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-francaise {
+    color: #FF9933;
+}

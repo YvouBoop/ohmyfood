@@ -1,75 +1,38 @@
-.oh-my-food{    
-    
-	height:100%;
-	width:40%;
-    margin:0 auto;
-	display: flex;
-	flex-flow:row wrap;	
-    justify-content: center;	
+html {
+    height: 100%;
+    width: 100%;
 }
-.enchantee,.palette,.delice,.francaise{    
-    background-color: white;
-    height:220px;
-    width:39%;
+
+.oh-my-food {
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.enchantee,
+.palette,
+.delice,
+.francaise {
+    height: 220px;
+    width: 39%;
     text-align: center;
-    display:flex;
-    flex-flow: row wrap;   
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px black solid;
+
 }
-.enchantee,.delice{    
+
+.enchantee,
+.delice {
     margin-bottom: 50px;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
-.palette,.francaise{
+
+.palette,
+.francaise {
     margin-bottom: 50px;
     margin-left: 10px;
 }
-.nom-resto-enchantee, .menu-enchantee{
-     font-size:20px;
-    font-family: 'Dancing Script', cursive;
-    margin:auto;
-    color: #663300;
-}
-.nom-resto-palette,.menu-palette{
-    font-size:20px;
-    font-family: 'Dancing Script', cursive;
-    margin:auto;
-}
-.nom-resto-palette{
-    background: -webkit-gradient(linear, left top, right top, from(#00cc00), to(#ccff66));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-}
-.menu-palette{     
-    color:#00cc00;    
-}
-.nom-resto-francaise,.menu-francaise{
-    font-size: 20px;
-    font-family: 'Dancing Script', cursive;
-    margin:auto;
-}
-.nom-resto-francaise{
-           
-    background: -webkit-gradient(linear, left top, right top, from(#FF9933), to(#663399));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.menu-francaise{
-    color:#FF9933;
-}
-.nom-resto-papille,.menu-papille{
-    font-size:20px;
-    font-family: 'Dancing Script', cursive;
-    margin:auto;
-}
-.nom-resto-papille{
-background: -webkit-gradient(linear, left top, right top, from(#0033CC), to(#0099FF));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
-}
-.menu-papille{
-    color:#0033CC;
-}
-
-
-

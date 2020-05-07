@@ -1,0 +1,17 @@
+.nom-resto-palette,
+.menu-palette {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+}
+
+.nom-resto-palette {
+    background: -webkit-gradient(linear, left top, right top, from(#00cc00), to(#ccff66));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.menu-palette {
+    color: #00cc00;
+}
