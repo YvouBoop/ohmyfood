@@ -17,22 +17,17 @@ html {
 .delice,
 .francaise {
     height: 200px;
-    width: 39%;
+    width: 200px;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    border: 1px black solid;
-
+    border: 1px black solid;     
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.enchantee,
-.delice {
-    margin-bottom: 40px;
-    margin-right: 10px;
-}
 
-.palette,
-.francaise {
-    margin-bottom: 40px;
-    margin-left: 10px;
-}
+
+
