@@ -28,8 +28,8 @@ footer {
 }
 @media (max-width: 650px) {
     footer{
-        width:70%;
-        left:35%
+        width:80%;
+        left:30%
     }
 }
 
