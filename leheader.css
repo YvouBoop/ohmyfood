@@ -9,8 +9,10 @@ header{
 }
 .boite-header{
 	color:yellow;
-	text-align: center;
-    
-   
-		
+	text-align: center;		
+}
+@media (max-width: 650px) {
+    header{
+        width:70%;
+    }
 }

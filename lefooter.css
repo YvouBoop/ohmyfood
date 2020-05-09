@@ -26,6 +26,12 @@ footer {
     text-align: right;
     margin-right: 5px;
 }
+@media (max-width: 650px) {
+    footer{
+        width:70%;
+        left:35%
+    }
+}
 
 
 
