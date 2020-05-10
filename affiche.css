@@ -1,4 +1,5 @@
 html {
+    background-color: #baaaaa;
     height: 100%;
     width: 100%;
 }
@@ -30,6 +31,7 @@ html {
 a.lien-menus{
     text-decoration:none;
 }
+
 
 
 

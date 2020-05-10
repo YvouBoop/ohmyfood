@@ -1,11 +1,12 @@
 .delice {
-    
-    background-color: #adbfbe;
+    transition:background-color 1s ease;
+    background-color: rgb(173, 191, 190,1);
     
 }
 
 .nom-resto-papille,
 .menu-papille {
+    transition:font-size 1s ease;
     justify-content: center;
     font-size: 20px;
     font-family: 'Dancing Script', cursive;
@@ -13,11 +14,25 @@
 }
 
 .nom-resto-papille {
-    background: -webkit-gradient(linear, left top, right top, from(#0033CC), to(#0099FF));
+    background: -webkit-gradient(linear, left top, right top, from(rgb(0, 51, 204,1)), to(rgb(0, 153, 255,1)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
 .menu-papille {
-    color: #0033CC;
+    color: rgb(0, 51, 204,1);
+}
+.delice:hover{
+    background-color: rgb(173, 191, 190,0.7);
+}
+.nom-resto-papille:hover{
+    font-size:28px;
+    background: -webkit-gradient(linear, left top, right top, from(rgb(0, 51, 204,0.5)), to(rgb(0, 153, 255,0.5)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.menu-papille:hover{
+    color: rgb(0, 51, 204,0.5);
+    font-size: 40px;
+    
 }
